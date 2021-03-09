@@ -1,0 +1,19 @@
+.header{
+    background: $off-black;
+    margin-bottom: $xl-size;
+    padding: $m-size 0;
+}
+
+// Block Element Modifier nameing convention
+.header__title {
+    color: $off-white;
+    font-size: $l-size;
+    margin: 0;
+}   
+
+.header__subtitle {
+    color: $off-white;
+    font-size: $m-size;
+    font-weight: 500;
+}
+
