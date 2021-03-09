@@ -9,6 +9,7 @@ import { setTextFilter } from './actions/filters'
 import getVisibleExpenses from './selectors/expenses'
 import 'normalize.css/normalize.css'
 import './styles/style.scss'
+import 'react-dates/lib/css/_datepicker.css'
 
 
 const store = configureStore();
@@ -29,12 +30,6 @@ store.dispatch(addExpense({
     amount: 1095,
     createdAt: 1000
 }))
-
-// const ret = store.dispatch(setTextFilter("bill"))
-
-// const state = store.getState()
-
-// const filteredExpenses = getVisibleExpenses(state.expenses,state.filters)
 
 //set up provider
 const jsx = (
